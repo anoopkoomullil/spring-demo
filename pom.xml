@@ -9,8 +9,8 @@
 		<version>2.1.5.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.howtodoinjava</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.projectPipeline</groupId>
+	<artifactId>popelineDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
@@ -87,4 +87,17 @@
         	<version>5.4.9.Final</version>
     	</dependency>
 	</dependencies>
+	<repositories>
+        <repository>
+            <id>myMavenRepo.read</id>
+            <url>https://mymavenrepo.com/repo/4FfpayYGHNki8Mv6Fyy1/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/EXG85uVM5PGRHuQdqAP4/</url>
+        </repository>
+    </distributionManagement>
 </project>
